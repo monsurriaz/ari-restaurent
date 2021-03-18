@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS Links-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+
+    <script
+      src="https://kit.fontawesome.com/5adceddaa0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Html template with BT and Media Query</title>
+  </head>
+  <body>
+    <section class="common_bg">
+      <!-- header start -->
+      <header>
+        <div class="container">
+          <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+              <div class="container-fluid d-flex align-items-center">
+                <a class="navbar-brand" href="#">
+                  <img class="img-fluid" src="./images/logo.png" alt="logo" />
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul
+                    class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center"
+                  >
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">
+                        Solutions
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">My APIs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">API Doc</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Provider</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <button class="btn gradient_btn">Sign Up</button>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!--banner section-->
+      <div class="banner">
+        <div class="left_img left">
+          <img
+            src="./images/delicious-food-1e06c0194f14f38396eb4ab1e3094aeb.png"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+        <div class="right_img right">
+          <img src="./images/899@2x.png" alt="" class="img-fluid" />
+        </div>
+        <div class="container">
+          <div class="row align_row">
+            <div class="col-lg-5">
+              <div class="left_banner">
+                <h3>All Restaurant deals around</h3>
+                <h1>
+                  Your <br />
+                  Neighborhood
+                </h1>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Excepturi obcaecati autem modi nobis asperiores nemo velit
+                  perferendis eligendi officia aspernatur.
+                </p>
+                <button class="gradient_btn btn">Get Stated</button>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="right_banner">
+                <img
+                  class="img-fluid"
+                  src="./images/Group 31732.png"
+                  alt="banner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- why choose us section start -->
+    <section class="why_section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="why_choose_title text-center">
+              <h1><span>Why</span> Choose Us</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae
+                autem sapiente aut est libero quae!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2nd row -->
+        <div class="service_row">
+          <div class="row align_row g-0">
+            <div class="col-lg-4">
+              <div class="our_short_service">
+                <div class="row align_row g-0">
+                  <div class="col-lg-4">
+                    <div class="our_short_service_img">
+                      <img
+                        src="./images/why1.png"
+                        alt="why"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="our_short_service_details">
+                      <h4>Best Offer in Town!</h4>
+                      <p>
+                        Lorem Ipsum That cons Compare that simplifies the use
+                        and integration
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="our_short_service">
+                <div class="row align_row g-0">
+                  <div class="col-lg-4">
+                    <div class="our_short_service_img">
+                      <img
+                        src="./images/why2.png"
+                        alt="why"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="our_short_service_details">
+                      <h4>So much to Choose From</h4>
+                      <p>
+                        Lorem Ipsum That cons Compare that simplifies the use
+                        and integration
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="our_short_service">
+                <div class="row align_row g-0">
+                  <div class="col-lg-4">
+                    <div class="our_short_service_img">
+                      <img
+                        src="./images/why3.png"
+                        alt="why"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="our_short_service_details">
+                      <h4>Fastest Delivery</h4>
+                      <p>
+                        Lorem Ipsum That cons Compare that simplifies the use
+                        and integration
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="phone_app_img">
+                <img
+                  class="img-fluid"
+                  src="./images/Group 2628@2x.png"
+                  alt="app"
+                />
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="our_short_service">
+                <div class="row align_row g-0">
+                  <div class="col-lg-4">
+                    <div class="our_short_service_img">
+                      <img
+                        src="./images/why4.png"
+                        alt="why"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="our_short_service_details">
+                      <h4>Fresh Food</h4>
+                      <p>
+                        Lorem Ipsum That cons Compare that simplifies the use
+                        and integration
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="our_short_service">
+                <div class="row align_row g-0">
+                  <div class="col-lg-4">
+                    <div class="our_short_service_img">
+                      <img
+                        src="./images/why5.png"
+                        alt="why"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="our_short_service_details">
+                      <h4>So much to Choose From</h4>
+                      <p>
+                        Lorem Ipsum That cons Compare that simplifies the use
+                        and integration
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="our_short_service">
+                <div class="row align_row g-0">
+                  <div class="col-lg-4">
+                    <div class="our_short_service_img">
+                      <img
+                        src="./images/why6.png"
+                        alt="why"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="our_short_service_details">
+                      <h4>24 Hour Support</h4>
+                      <p>
+                        Lorem Ipsum That cons Compare that simplifies the use
+                        and integration
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- why choose us section end -->
+
+    <!-- download app section start -->
+    <section class="download_app">
+      <div class="s_img">
+        <img class="img-fluid" src="./images/download-s.png" alt="s" />
+      </div>
+      <div class="container">
+        <div class="row align_row">
+          <div class="col-lg-6">
+            <div class="download_app_img_wrapper">
+              <img
+                class="img-fluid"
+                src="./images/download-app.png"
+                alt="app"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="download_app_details">
+              <h1>
+                <span>Download app</span> <br />
+                for Exciting Deals
+              </h1>
+              <p>
+                Lorem Ipsum That cons Compare that simplifies the use and
+                integration of AI bricks by standardizing the AI Lorem Ipsum
+                That cons Compare that simplifies the use and integration of AI
+                bricks by standardizing the AI
+              </p>
+              <div class="download_btn">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <button class="btn">
+                      <div class="row">
+                        <div class="col-lg-3">
+                          <img
+                            class="img-fluid"
+                            src="./images/Apple.png"
+                            alt="apple"
+                          />
+                        </div>
+                        <div class="col-lg-9">
+                          <div class="download_btn_wrapper">
+                            <h4>Download on the</h4>
+                            <h2>App Store</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </button>
+                  </div>
+                  <div class="col-lg-6">
+                    <button class="btn">
+                      <div class="row">
+                        <div class="col-lg-3">
+                          <img
+                            class="img-fluid"
+                            src="./images/google-play.png"
+                            alt="google"
+                          />
+                        </div>
+                        <div class="col-lg-9">
+                          <div class="download_btn_wrapper">
+                            <h4>Get it on</h4>
+                            <h2>Google Play</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- download app section end -->
+
+    <!-- happy clint section start -->
+    <section class="happy_client_section">
+      <div class="container">
+        <div class="happy_client_header">
+          <div class="row justify-content-center">
+            <div class="col-lg-12">
+              <div class="happy_client_title_wrapper text-center">
+                <h1><span>Happy</span> Client</h1>
+                <p>Lorem Ipsum That cons Compare that simplifies the use</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="happy_client_feedback">
+          <div class="row g-0">
+            <!-- single-1 -->
+            <div class="col-lg-4">
+              <div class="single_feedback_wrapper single-1">
+                <h3>Manager of CTO Bank</h3>
+                <p>
+                  "Lorem Ipsum, a lot of websites have testimonials that don’t
+                  seem to be real. that You can check out our client feedback
+                  threads on third party sites"
+                </p>
+                <div class="client_info">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <img
+                        class="img-fluid"
+                        src="./images/left_avada.png"
+                        alt="avada"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#">Gregory haven</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- single-2 -->
+            <div class="col-lg-4">
+              <div class="single_feedback_wrapper single-2">
+                <h3>Manager of CTO Bank</h3>
+                <p>
+                  "Lorem Ipsum, a lot of websites have testimonials that don’t
+                  seem to be real. that You can check out our client feedback
+                  threads on third party sites"
+                </p>
+                <div class="client_info">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <img
+                        class="img-fluid"
+                        src="./images/middle_avada.png"
+                        alt="avada"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#">Gregory haven</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- single-3 -->
+            <div class="col-lg-4">
+              <div class="single_feedback_wrapper single-3">
+                <h3>Manager of CTO Bank</h3>
+                <p>
+                  "Lorem Ipsum, a lot of websites have testimonials that don’t
+                  seem to be real. that You can check out our client feedback
+                  threads on third party sites"
+                </p>
+                <div class="client_info">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <img
+                        class="img-fluid"
+                        src="./images/right_avada.png"
+                        alt="avada"
+                      />
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#">Gregory haven</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- happy client section end -->
+
+    <!-- signup section start -->
+    <section class="signup_section">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-lg-6">
+            <div class="signup_form_wrapper">
+              <h1>Email <span>Sign up</span></h1>
+              <p>
+                Lorem Ipsum That cons Compare that simplifies the use and
+                integration of AI bricks
+              </p>
+              <form action="">
+                <div class="input-group username">
+                  <span class="input-group-text" id="basic-addon1"
+                    ><i class="far fa-user"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Name"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="input-group username">
+                  <span class="input-group-text" id="basic-addon1"
+                    ><i class="far fa-envelope"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Email"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <button class="btn gradient_btn">Sign Up</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="menu_item_wrapper">
+              <div class="happy_client_avada">
+                <h2>15K+</h2>
+                <small>Happy Client</small>
+                <div class="people_avada">
+                  <img
+                    class="img-fluid"
+                    src="./images/peoples.png"
+                    alt="peoples"
+                  />
+                </div>
+              </div>
+              <div class="chicken_avada">
+                <div class="nopath_img">
+                  <img
+                    class="img-fluid"
+                    src="./images/NoPath-Copy.png"
+                    alt="ari"
+                  />
+                </div>
+                <div class="chicken_details">
+                  <h4>Chicken</h4>
+                  <small>Vegetable</small>
+                  <div class="people_avada">
+                    <img
+                      class="img-fluid"
+                      src="./images/peoples.png"
+                      alt="peoples"
+                    />
+                  </div>
+                  <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                      <a href="#"><i class="fas fa-star"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#"><b>5.0</b></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#">100 reviews</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- signup section end -->
+
+
+    <!-- contact_us_section start -->
+    <section class="contact_us">
+      <div class="visual">
+
+      </div>
+      <div class="container">
+        <div class="row align-items-end shadow">
+          <div class="col-lg-7">
+            <div class="chef_img">
+              <img
+                class="img-fluid"
+                src="./images/chef.png"
+                alt="master chef"
+              />
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="contact_details">
+              <h1><span>Food's the most</span> <br> precious things</h1>
+              <p>
+                Lorem Ipsum That cons Compare that simplifies the use and
+                integration
+              </p>
+              <button class="btn gradient_btn">Contact Us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact_us_section end -->
+
+
+    <!-- footer combo section start -->
+    <footer>
+      <div class="left_img">
+        <img class="img-fluid"src="./images/footer-s.png" alt="s">
+      </div>
+
+      <div class="right_plate_img">
+        <img class="img-fluid"src="./images/breakfast-healthy-open-sandwich-toast-with-avocado-salmon-boiled-eggs-herbs-chia-seeds-white-plate-with-copy-space-healthy-protein-food-removebg-preview.png" alt="plate">
+      </div>
+
+      <div class="container">
+        <!-- footer row start -->
+        <div class="footer">
+          <div class="row justify-content-between">
+            <div class="col-lg-4">
+              <div class="footer_col_1">
+                <div class="logo">
+                  <img class="img-fluid"src="./images/logo.png" alt="logo">
+                </div>
+                <p>Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting that industry Ipsum is simply. Lorem Ipsum the Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="footer_col_2">
+                <h3>Polices</h3>
+                <ul class="list-unstyled">
+                  <li><a href="#">
+                    Terms of Service
+                  </a></li>
+                  <li><a href="#">Refund Policy</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Cancellation</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="footer_col_3">
+                <h3>Connect With us</h3>
+                <p>Follow us on social media to get the latest
+                  news, updates, and results from our trades.</p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="row">
+            <div class="col-lg-12">
+              <a href="#">
+                Copyright© 2020 Biisq
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer combo section end -->
+
+    <!--JS Links -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
