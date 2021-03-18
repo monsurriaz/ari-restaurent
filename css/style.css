@@ -77,15 +77,14 @@ nav ul li a {
   padding: 60px 0 80px;
 }
 
-.left {
+.banner_left_img {
   position: absolute;
-  left: -6rem;
-  bottom: 0em;
-  width: 290px;
+  left: -3rem;
+  bottom: 0px;
 }
 
-.left img {
-  width: 70%;
+.banner_left_img img {
+  width: 55%;
 }
 
 .right {
@@ -99,7 +98,6 @@ nav ul li a {
 .right img {
   width: 80%;
 }
-
 
 .left_banner h3 {
   color: #d76957;
@@ -122,13 +120,11 @@ nav ul li a {
   margin-top: 30px;
 }
 
-
 /* why choose us section */
 
 .why_section {
   padding: 100px 0 50px;
 }
-
 
 .why_choose_title p {
   font-weight: 500;
@@ -143,7 +139,6 @@ nav ul li a {
   background-position: 205px 20px;
   background-size: contain;
 }
-
 
 .our_short_service_details h4 {
   font-size: 18px;
@@ -179,7 +174,6 @@ nav ul li a {
 
 .download_app_img_wrapper img {
 }
-
 
 .download_app_details h1 {
   font-weight: 700;
@@ -217,25 +211,21 @@ nav ul li a {
   margin-bottom: 0;
 }
 
-
 /*********** happy client start ***************/
 
 .happy_client_section {
   padding: 60px 0px;
 }
 
-
 .happy_client_title_wrapper {
   margin-bottom: 50px;
 }
-
 
 .happy_client_title_wrapper p {
   font-weight: 600;
   font-size: 20px;
   color: #444;
 }
-
 
 .happy_client_feedback .single_feedback_wrapper {
   margin-left: 10px;
@@ -289,7 +279,6 @@ nav ul li a {
   margin-bottom: 0;
 }
 
-
 .client_info ul li img {
   width: 90%;
 }
@@ -301,7 +290,6 @@ nav ul li a {
 }
 
 /*********** happy client end ***************/
-
 
 /* sign up section start */
 .signup_section {
@@ -344,7 +332,6 @@ form .username span {
   color: #707070;
 }
 
-
 form .username input {
   border: none;
   background-color: transparent;
@@ -361,7 +348,7 @@ form .username input:focus {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 400px;
+  min-height: 382px;
   position: relative;
 }
 
@@ -410,7 +397,6 @@ form .username input:focus {
   width: 43%;
 }
 
-
 .chicken_avada .chicken_details h4 {
   font-weight: 700;
   color: #444;
@@ -446,7 +432,6 @@ form .username input:focus {
 
 /* sign up section end */
 
-
 /* contact section start */
 .contact_us {
   background-color: #fff;
@@ -465,7 +450,6 @@ form .username input:focus {
   width: 100%;
   z-index: 1;
 }
-
 
 .contact_details {
   margin-bottom: 40px;
@@ -488,7 +472,6 @@ form .username input:focus {
 
 /* contact section end */
 
-
 /* footer start */
 
 footer {
@@ -505,13 +488,13 @@ footer {
   padding-bottom: 10px;
 }
 
-.left_img {
+.footer_left_img {
   position: absolute;
   left: 0;
   bottom: 0px;
 }
 
-.left_img img {
+.footer_left_img img {
   width: 45%;
 }
 
@@ -530,7 +513,6 @@ footer {
   flex-direction: column;
 }
 
-
 .footer_col_1 .logo img {
   width: 40%;
 }
@@ -540,7 +522,6 @@ footer {
   color: #555555;
   margin-top: 25px;
 }
-
 
 .footer_col_2 h3,
 .footer_col_3 h3 {
@@ -561,7 +542,6 @@ footer {
   font-size: 18px;
   color: #555555;
 }
-
 
 .footer_col_3 ul li {
   margin-right: 15px !important;
