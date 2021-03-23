@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* font-family: 'Lato', sans-serif; */
 
 * {
   margin: 0;
@@ -15,6 +19,7 @@ body {
   color: #444444;
   overflow-x: hidden !important;
   max-width: 100vw;
+  scroll-behavior: smooth;
 }
 
 .align_row {
@@ -34,16 +39,9 @@ h1 span {
   color: #d76957;
 }
 
-nav ul li {
-  margin: 0 15px;
-}
-nav ul li:last-child {
-  margin: 0px;
-}
-nav ul li a {
-  color: #1b1c3b !important;
-
-  font-size: 18px;
+p {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0;
 }
 
 .gradient_btn {
@@ -70,7 +68,30 @@ nav ul li a {
   box-shadow: 0 0 0 0.25rem #0d6dfd00;
 }
 
-/* banner section */
+/********* navbar start *******/
+.navbar .container-fluid {
+  padding: 0 !important;
+}
+.navbar-brand img {
+}
+.navbar-light .navbar-toggler {
+  color: #d7685780;
+  border-color: #d7675634;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li:last-child {
+  margin: 0px;
+}
+nav ul li a {
+  color: #1b1c3b !important;
+
+  font-size: 18px;
+}
+
+/******* banner section start ********/
 .banner {
   overflow: hidden;
   position: relative;
@@ -112,7 +133,6 @@ nav ul li a {
 .left_banner p {
   color: #444444;
   font-size: 20px;
-  margin-bottom: 0;
   padding: 15px 0;
 }
 
@@ -120,10 +140,24 @@ nav ul li a {
   margin-top: 30px;
 }
 
-/* why choose us section */
+/********* banner section end **********/
+
+/********* why choose us section start *********/
 
 .why_section {
-  padding: 100px 0 50px;
+  padding: 100px 0 85px;
+}
+
+.our_short_service {
+  margin-bottom: 20px;
+}
+
+.our_short_service_img {
+  text-align: center;
+}
+
+.our_short_service_img img {
+  width: 85%;
 }
 
 .why_choose_title p {
@@ -136,34 +170,44 @@ nav ul li a {
   background: linear-gradient(#ffffffe6, #ffffffe6),
     url(../images/delicious-food-1e06c0194f14f38396eb4ab1e3094aeb.png);
   background-repeat: no-repeat;
-  background-position: 205px 20px;
+  background-position: center;
   background-size: contain;
+  margin-top: 55px;
 }
 
 .our_short_service_details h4 {
-  font-size: 18px;
+  margin-bottom: 3px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 19px;
   color: #1b1c3b;
 }
 
 .our_short_service_details p {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .phone_app_img img {
-  margin-top: 2em;
+  width: 75%;
 }
 
-/* download app section */
+/********* why choose us section start *********/
+
+/******** download app section start *********/
 
 .download_app {
   position: relative;
   background-color: #fff3f3;
 }
 
+.s_img {
+  
+}
+
 .s_img img {
   width: 20%;
   position: absolute;
-  top: -9em;
+  top: -6.5em;
   right: 0;
 }
 
@@ -211,14 +255,20 @@ nav ul li a {
   margin-bottom: 0;
 }
 
+/******** download app section end ************/
+
 /*********** happy client start ***************/
 
 .happy_client_section {
-  padding: 60px 0px;
+  padding: 70px 0px;
 }
 
 .happy_client_title_wrapper {
   margin-bottom: 50px;
+}
+
+.happy_client_title_wrapper h1 {
+  font-weight: 600;
 }
 
 .happy_client_title_wrapper p {
@@ -249,6 +299,7 @@ nav ul li a {
 }
 
 .happy_client_feedback .single_feedback_wrapper h3 {
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 25px;
   color: #f7921c;
@@ -264,6 +315,7 @@ nav ul li a {
 }
 
 .single_feedback_wrapper p {
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 20px;
   color: #010101;
@@ -277,12 +329,15 @@ nav ul li a {
 
 .client_info ul {
   margin-bottom: 0;
+  display: flex;
+  align-items: center;
 }
 
 .client_info ul li img {
   width: 90%;
 }
 .client_info ul li a {
+  font-family: "Lato", sans-serif;
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
@@ -291,10 +346,21 @@ nav ul li a {
 
 /*********** happy client end ***************/
 
-/* sign up section start */
+/********** sign up section start ***********/
 .signup_section {
+  position: relative;
   padding-top: 60px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
+}
+
+.signup_left_img {
+  position: absolute;
+  left: 0;
+  top: -5rem;
+}
+
+.signup_left_img img {
+  width: 45%;
 }
 
 .signup_form_wrapper {
@@ -305,6 +371,7 @@ nav ul li a {
 }
 
 .signup_form_wrapper h1 {
+  font-weight: 500;
   font-size: 40px;
   margin-bottom: 20px;
 }
@@ -333,6 +400,7 @@ form .username span {
 }
 
 form .username input {
+  font-weight: 300;
   border: none;
   background-color: transparent;
 }
@@ -364,14 +432,17 @@ form .username input:focus {
 }
 
 .happy_client_avada h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
   font-size: 30px;
   color: #444;
   margin-bottom: 0;
 }
 
 .happy_client_avada small {
-  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  font-size: 16px;
   color: #444;
   display: inline-block;
   margin-bottom: 7px;
@@ -398,14 +469,16 @@ form .username input:focus {
 }
 
 .chicken_avada .chicken_details h4 {
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: #444;
   margin-bottom: 0px;
 }
 
 .chicken_avada .chicken_details small {
-  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  font-size: 16px;
   color: #444;
   display: inline-block;
   margin-bottom: 7px;
@@ -430,32 +503,21 @@ form .username input:focus {
   color: #e6d138;
 }
 
-/* sign up section end */
+/******* sign up section end **********/
 
-/* contact section start */
+/******* contact section start **********/
 .contact_us {
   background-color: #fff;
   min-height: 400px;
-  padding-top: 50px;
+  padding-top: 60px;
   padding-bottom: 60px;
-  position: relative;
-}
-
-.visual {
-  position: absolute;
-  min-height: 150px;
-  background-color: #fe40320f;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1;
 }
 
 .contact_details {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
-  width: clamp(12ch, 50% 24ch);
+  padding-right: 10px;
 }
 
 .contact_details h1 {
@@ -464,15 +526,16 @@ form .username input:focus {
 }
 
 .contact_details p {
+  font-weight: 500;
   font-size: 20px;
   color: #444;
   line-height: 32px;
   margin-bottom: 25px;
 }
 
-/* contact section end */
+/********* contact section end *********/
 
-/* footer start */
+/********* footer start *********/
 
 footer {
   position: relative;
@@ -484,7 +547,6 @@ footer {
 
 .footer {
   border-bottom: 1px solid #555555;
-
   padding-bottom: 10px;
 }
 
@@ -520,11 +582,12 @@ footer {
 .footer_col_1 p,
 .footer_col_3 p {
   color: #555555;
-  margin-top: 25px;
+  margin: 20px 0;
 }
 
 .footer_col_2 h3,
 .footer_col_3 h3 {
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   color: #d76957;
@@ -573,3 +636,18 @@ footer {
   color: #666666;
   font-weight: 400;
 }
+
+/* padding    lg      md    sm      col
+                            60 top                20
+                            80 bottom             25
+
+                  h3        lg     md     sm      col
+                            28                    20
+
+                  h1        lg     md     sm      col
+                            55                    30
+
+                  line-h    lg     md     sm      col
+                            60                    32
+                  
+              */

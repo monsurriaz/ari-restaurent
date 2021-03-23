@@ -1,35 +1,1516 @@
 /* Extra small devices (min portrait phones) */
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 475.98px) {
+  /* common css */
+  .gradient_btn {
+    width: 145px;
+    height: 45px;
+  }
 
+  h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  /* navbar start */
+  .navbar-brand img {
+    width: 90px;
+  }
+  /* navbar end */
+
+  /* banner start */
+  .banner {
+    padding: 25px 0 20px;
+  }
+  .right {
+    display: none;
+  }
+  .banner_left_img {
+    display: none;
+  }
+  .left_banner h3 {
+    font-size: 20px;
+  }
+  .left_banner h1 {
+    line-height: 32px;
+    font-size: 30px;
+  }
+  .left_banner p {
+    font-size: 15px;
+    line-height: 22px;
+    padding: 15px 5px 15px 0;
+  }
+  .left_banner button {
+    margin-top: 10px;
+  }
+  .right_banner {
+    margin-top: 25px;
+  }
+  /* banner start */
+
+  /* why_section start */
+  .why_section {
+    padding: 20px 0 25px;
+  }
+  .why_choose_title p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .service_row {
+    margin-top: 20px;
+  }
+  .our_short_service {
+    margin-bottom: 10px;
+  }
+  .our_short_service_img img {
+    width: 35%;
+  }
+  .our_short_service_details {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .phone_app_img {
+    margin-bottom: 30px;
+  }
+  /********  why_section start  *********/
+
+  /******** download app section start ********/
+
+  .download_app {
+    padding: 30px 0;
+  }
+
+  .download_app_img_wrapper {
+    padding: 10px;
+    padding-bottom: 0;
+  }
+
+  .download_app_details {
+    text-align: center;
+  }
+
+  .download_app_details p {
+    font-size: 16px;
+  }
+
+  .download_btn button {
+    padding: 8px 10px;
+    width: 230px;
+    margin-bottom: 10px;
+  }
+
+  .download_btn button .download_btn_wrapper h2 {
+    font-size: 22px;
+  }
+
+  /***** happy client section start ******/
+  .happy_client_section {
+    padding: 30px 0px;
+  }
+
+  .happy_client_title_wrapper {
+    margin-bottom: 20px;
+  }
+
+  .happy_client_title_wrapper p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .happy_client_feedback .single_feedback_wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 12px;
+    margin-bottom: 20px;
+  }
+
+  /* .happy_client_feedback .single_feedback_wrapper:last-child {
+    margin-bottom: 0px;
+  } */
+
+  .happy_client_feedback .single_feedback_wrapper h3 {
+    padding-bottom: 5px;
+  }
+
+  .single_feedback_wrapper p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .client_info {
+    padding-top: 15px;
+  }
+
+  .client_info ul li img {
+    width: 70%;
+  }
+
+  .client_info ul li a {
+    font-size: 18px;
+  }
+  /***** happy client section end ******/
+
+  /******* sign up start **********/
+  .signup_section {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .signup_left_img {
+    top: -3rem;
+  }
+
+  .signup_left_img img {
+    width: 30%;
+  }
+
+  .signup_form_wrapper {
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 20px;
+  }
+  .signup_form_wrapper h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .signup_form_wrapper p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  form {
+    margin-top: 22px;
+  }
+
+  form .username {
+    min-height: 45px;
+    margin-bottom: 20px;
+  }
+
+  .menu_item_wrapper {
+    margin-top: 20px;
+    min-height: 250px;
+  }
+
+  .happy_client_avada {
+    padding: 10px 0;
+    right: 1.5rem;
+  }
+
+  .happy_client_avada h2 {
+    font-size: 25px;
+    line-height: 22px;
+  }
+
+  .happy_client_avada small {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .happy_client_avada .people_avada img {
+    width: 65%;
+  }
+
+  .chicken_avada {
+    padding: 5px 7px;
+    left: 30%;
+    bottom: -1rem;
+  }
+
+  .chicken_avada .nopath_img img {
+    width: 35%;
+  }
+
+  .chicken_avada .chicken_details h4 {
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 15px;
+  }
+
+  .chicken_avada .chicken_details small {
+    font-size: 13px;
+    margin-bottom: 2px;
+  }
+
+  .chicken_avada .chicken_details .people_avada {
+    margin-bottom: 0px;
+  }
+
+  .chicken_avada .chicken_details .people_avada img {
+    width: 50%;
+  }
+
+  .chicken_avada .chicken_details ul li {
+    margin-right: 2px !important;
+  }
+  .chicken_avada .chicken_details ul li:last-child {
+    margin-right: 0px !important;
+  }
+
+  .chicken_avada .chicken_details ul li a {
+    font-size: 12px;
+  }
+
+  /******* contact us section start ******/
+  .contact_us {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .contact_us .row.shadow {
+    box-shadow: 0 0rem 0rem rgba(0, 0, 0, 0) !important;
+  }
+
+  .contact_details {
+    margin: 0 0 20px;
+    padding-right: 0px;
+  }
+
+  .contact_details h1 {
+    line-height: 32px;
+    margin-bottom: 0px;
+  }
+
+  .contact_details p {
+    font-size: 15px;
+    line-height: 23px;
+    margin: 15px 0px;
+  }
+
+  /***** footer start *****/
+
+  footer {
+    padding: 25px 0 20px;
+    text-align: center;
+  }
+
+  .footer_left_img,
+  .right_plate_img {
+    display: none;
+  }
+
+  .accordion-button {
+    padding: 10px 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #d76957;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+  }
+
+  .accordion-button::after {
+    color: #d76957 !important;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    color: #000 !important;
+  }
+
+  .footer_col_1,
+  .footer_col_2 {
+    padding-bottom: 10px;
+  }
+
+  .footer_col_2 h3,
+  .footer_col_3 h3 {
+    font-size: 18px;
+  }
+
+  .footer_col_1 p,
+  .footer_col_3 p {
+    margin: 10px 0;
+    line-height: 23px;
+  }
+
+  .footer_col_2 ul {
+    margin-top: 10px;
+  }
+
+  .footer_col_2 ul li {
+    margin-bottom: 5px;
+  }
+
+  .footer_col_2 ul li a {
+    font-size: 16px;
+  }
+
+  .footer_col_3 ul {
+    margin-bottom: 5px;
+  }
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (min-width: 321px) and (max-width: 575.98px) {
+@media (min-width: 476px) and (max-width: 575.98px) {
+  /* common css */
+  .gradient_btn {
+    width: 145px;
+    height: 45px;
+  }
 
+  h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  /* navbar start */
+  .navbar-brand img {
+    width: 90px;
+  }
+  /* navbar end */
+
+  /* banner start */
+  .banner {
+    padding: 25px 0 20px;
+  }
+  .right {
+    display: none;
+  }
+  .banner_left_img {
+    display: none;
+  }
+  .left_banner h3 {
+    font-size: 20px;
+  }
+  .left_banner h1 {
+    line-height: 32px;
+    font-size: 30px;
+  }
+  .left_banner p {
+    font-size: 15px;
+    line-height: 22px;
+    padding: 15px 5px 15px 0;
+  }
+  .left_banner button {
+    margin-top: 10px;
+  }
+  .right_banner {
+    margin-top: 25px;
+  }
+  /* banner start */
+
+  /* why_section start */
+  .why_section {
+    padding: 20px 0 25px;
+  }
+  .why_choose_title p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .service_row {
+    margin-top: 20px;
+  }
+  .our_short_service {
+    margin-bottom: 15px;
+  }
+  .our_short_service_img img {
+    width: 30%;
+  }
+  .our_short_service_details {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .phone_app_img {
+    margin-bottom: 30px;
+  }
+
+  .phone_app_img img {
+    width: 45%;
+  }
+  /********  why_section start  *********/
+
+  /******** download app section start ********/
+
+  .download_app {
+    padding: 30px 0;
+  }
+
+  .s_img img {
+    top: -2.5em;
+  }
+
+  .download_app_img_wrapper {
+    padding: 20px;
+    padding-bottom: 0;
+  }
+
+  .download_app_details {
+    text-align: center;
+  }
+
+  .download_app_details p {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+
+  .download_btn button {
+    padding: 8px 10px;
+    width: 300px;
+    margin-bottom: 15px;
+  }
+
+  .download_btn button .row {
+    align-items: center;
+  }
+
+  .download_btn button .download_btn_wrapper h2 {
+    font-size: 22px;
+  }
+
+  /***** happy client section start ******/
+  .happy_client_section {
+    padding: 30px 0px;
+  }
+
+  .happy_client_title_wrapper {
+    margin-bottom: 20px;
+  }
+
+  .happy_client_title_wrapper p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .happy_client_feedback .single_feedback_wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 12px;
+    margin-bottom: 20px;
+  }
+
+  /* .happy_client_feedback .single_feedback_wrapper:last-child {
+    margin-bottom: 0px;
+  } */
+
+  .happy_client_feedback .single_feedback_wrapper h3 {
+    padding-bottom: 5px;
+  }
+
+  .single_feedback_wrapper p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .client_info {
+    padding-top: 15px;
+  }
+
+  .client_info ul li img {
+    width: 70%;
+  }
+
+  .client_info ul li a {
+    font-size: 18px;
+  }
+  /***** happy client section end ******/
+
+  /******* sign up start **********/
+  .signup_section {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .signup_left_img {
+    top: -3rem;
+  }
+
+  .signup_left_img img {
+    width: 30%;
+  }
+
+  .signup_form_wrapper {
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 20px;
+  }
+  .signup_form_wrapper h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .signup_form_wrapper p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  form {
+    margin-top: 22px;
+  }
+
+  form .username {
+    min-height: 45px;
+    margin-bottom: 20px;
+  }
+
+  .menu_item_wrapper {
+    margin-top: 20px;
+    min-height: 310px;
+  }
+
+  .happy_client_avada {
+    padding: 10px 0;
+    right: 1.5rem;
+  }
+
+  .happy_client_avada h2 {
+    font-size: 25px;
+    line-height: 22px;
+  }
+
+  .happy_client_avada small {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .happy_client_avada .people_avada img {
+    width: 65%;
+  }
+
+  .chicken_avada {
+    padding: 5px 7px;
+    left: 30%;
+    bottom: -1rem;
+  }
+
+  .chicken_avada .nopath_img img {
+    width: 38%;
+  }
+
+  .chicken_avada .chicken_details h4 {
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .chicken_avada .chicken_details small {
+    font-size: 13px;
+    margin-bottom: 4px;
+  }
+
+  .chicken_avada .chicken_details .people_avada {
+    margin-bottom: 0px;
+  }
+
+  .chicken_avada .chicken_details .people_avada img {
+    width: 50%;
+  }
+
+  .chicken_avada .chicken_details ul li {
+    margin-right: 2px !important;
+  }
+  .chicken_avada .chicken_details ul li:last-child {
+    margin-right: 0px !important;
+  }
+
+  .chicken_avada .chicken_details ul li a {
+    font-size: 13px;
+  }
+
+  /******* contact us section start ******/
+  .contact_us {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .contact_us .row.shadow {
+    box-shadow: 0 0rem 0rem rgba(0, 0, 0, 0) !important;
+  }
+
+  .contact_details {
+    margin: 0 0 20px;
+    padding-right: 0px;
+  }
+
+  .contact_details h1 {
+    line-height: 32px;
+    margin-bottom: 0px;
+  }
+
+  .contact_details p {
+    font-size: 15px;
+    line-height: 23px;
+    margin: 15px 0px;
+  }
+
+  /***** footer start *****/
+
+  footer {
+    padding: 25px 0 20px;
+    text-align: center;
+  }
+
+  .footer_left_img,
+  .right_plate_img {
+    display: none;
+  }
+
+  .accordion-button {
+    padding: 10px 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #d76957;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+  }
+
+  .accordion-button::after {
+    color: #d76957 !important;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    color: #000 !important;
+  }
+
+  .footer_col_1,
+  .footer_col_2 {
+    padding-bottom: 10px;
+  }
+
+  .footer_col_2 h3,
+  .footer_col_3 h3 {
+    font-size: 18px;
+  }
+
+  .footer_col_1 p,
+  .footer_col_3 p {
+    margin: 15px 0;
+    line-height: 23px;
+    padding: 0 20px;
+  }
+
+  .footer_col_2 ul {
+    margin-top: 15px;
+  }
+
+  .footer_col_2 ul li {
+    margin-bottom: 8px;
+  }
+
+  .footer_col_2 ul li a {
+    font-size: 16px;
+  }
+
+  .footer_col_3 ul {
+    margin-bottom: 8px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  /* common css */
+  .gradient_btn {
+    width: 145px;
+    height: 45px;
+  }
 
+  h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  /* navbar start */
+  .navbar-brand img {
+    width: 90px;
+  }
+  /* navbar end */
+
+  /* banner start */
+  .banner {
+    padding: 30px 0;
+  }
+  .right {
+    display: none;
+  }
+  .banner_left_img {
+    display: none;
+  }
+  .left_banner h3 {
+    font-size: 20px;
+  }
+  .left_banner h1 {
+    line-height: 32px;
+    font-size: 30px;
+  }
+  .left_banner p {
+    font-size: 15px;
+    line-height: 22px;
+    padding: 15px 5px 15px 0;
+  }
+  .left_banner button {
+    margin-top: 10px;
+  }
+  .right_banner {
+    margin-top: 25px;
+  }
+  /* banner start */
+
+  /* why_section start */
+  .why_section {
+    padding: 30px 0 25px;
+  }
+  .why_choose_title p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .service_row {
+    margin-top: 20px;
+  }
+  .our_short_service {
+    margin-bottom: 15px;
+  }
+  .our_short_service_img img {
+    width: 30%;
+  }
+  .our_short_service_details {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .phone_app_img {
+    margin-bottom: 30px;
+  }
+
+  .phone_app_img img {
+    width: 45%;
+  }
+  /********  why_section start  *********/
+
+  /******** download app section start ********/
+
+  .download_app {
+    padding: 35px 0;
+  }
+
+  .s_img img {
+    top: -3.5em;
+  }
+
+  .download_app_img_wrapper {
+    padding: 20px;
+    padding-bottom: 0;
+  }
+
+  .download_app_details {
+    text-align: center;
+  }
+
+  .download_app_details p {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+
+  .download_btn button {
+    padding: 8px 10px;
+    width: 300px;
+    margin-bottom: 15px;
+  }
+
+  .download_btn button .row {
+    align-items: center;
+  }
+
+  .download_btn button .download_btn_wrapper h2 {
+    font-size: 22px;
+  }
+
+  /***** happy client section start ******/
+  .happy_client_section {
+    padding: 40px 0px;
+  }
+
+  .happy_client_title_wrapper {
+    margin-bottom: 20px;
+  }
+
+  .happy_client_title_wrapper p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .happy_client_feedback .single_feedback_wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 12px;
+    margin-bottom: 20px;
+  }
+
+  .happy_client_feedback .single_feedback_wrapper h3 {
+    padding-bottom: 5px;
+  }
+
+  .single_feedback_wrapper p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .client_info {
+    padding-top: 15px;
+  }
+
+  .client_info ul li img {
+    width: 70%;
+  }
+
+  .client_info ul li a {
+    font-size: 18px;
+  }
+  /***** happy client section end ******/
+
+  /******* sign up start **********/
+  .signup_section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .signup_left_img {
+    top: -3rem;
+  }
+
+  .signup_left_img img {
+    width: 30%;
+  }
+
+  .signup_form_wrapper {
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 20px;
+  }
+  .signup_form_wrapper h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .signup_form_wrapper p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  form {
+    margin-top: 22px;
+  }
+
+  form .username {
+    min-height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .menu_item_wrapper {
+    margin-top: 20px;
+    min-height: 340px;
+  }
+
+  .happy_client_avada {
+    padding: 15px 10px;
+    right: 1.5rem;
+  }
+
+  .happy_client_avada h2 {
+    font-size: 25px;
+    line-height: 28px;
+  }
+
+  .happy_client_avada small {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  .happy_client_avada .people_avada img {
+    width: 70%;
+  }
+
+  .chicken_avada {
+    padding: 5px 7px;
+    left: 30%;
+    bottom: 0rem;
+  }
+
+  .chicken_avada .nopath_img img {
+    width: 42%;
+  }
+
+  .chicken_avada .chicken_details h4 {
+    margin-bottom: 0px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .chicken_avada .chicken_details small {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  .chicken_avada .chicken_details .people_avada {
+    margin-bottom: 5px;
+  }
+
+  .chicken_avada .chicken_details .people_avada img {
+    width: 55%;
+  }
+
+  .chicken_avada .chicken_details ul li {
+    margin-right: 2px !important;
+  }
+  .chicken_avada .chicken_details ul li:last-child {
+    margin-right: 0px !important;
+  }
+
+  .chicken_avada .chicken_details ul li a {
+    font-size: 13px;
+  }
+
+  /******* contact us section start ******/
+  .contact_us {
+    padding-top: 40px;
+    padding-bottom: 35px;
+  }
+
+  .contact_us .row.shadow {
+    box-shadow: 0 0rem 0rem rgba(0, 0, 0, 0) !important;
+  }
+
+  .contact_details {
+    margin: 0 0 30px;
+    padding-right: 0px;
+  }
+
+  .contact_details h1 {
+    line-height: 32px;
+    margin-bottom: 0px;
+  }
+
+  .contact_details p {
+    font-size: 15px;
+    line-height: 23px;
+    margin: 15px 0px;
+  }
+
+  /***** footer start *****/
+
+  footer {
+    padding: 35px 0 20px;
+    text-align: center;
+  }
+
+  .footer_left_img,
+  .right_plate_img {
+    display: none;
+  }
+
+  .accordion-button {
+    padding: 10px 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #d76957;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+  }
+
+  .accordion-button::after {
+    color: #d76957 !important;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    color: #000 !important;
+  }
+
+  .footer_col_1,
+  .footer_col_2 {
+    padding-bottom: 10px;
+  }
+
+  .footer_col_2 h3,
+  .footer_col_3 h3 {
+    font-size: 18px;
+  }
+
+  .footer_col_1 p,
+  .footer_col_3 p {
+    margin: 15px 0;
+    line-height: 23px;
+    padding: 0 20px;
+  }
+
+  .footer_col_2 ul {
+    margin-top: 15px;
+  }
+
+  .footer_col_2 ul li {
+    margin-bottom: 8px;
+  }
+
+  .footer_col_2 ul li a {
+    font-size: 16px;
+  }
+
+  .footer_col_3 ul {
+    margin-bottom: 8px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  /* common css */
+  .gradient_btn {
+    width: 145px;
+    height: 45px;
+  }
 
+  h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  /* navbar start */
+  .navbar-brand img {
+    width: 90px;
+  }
+  /* navbar end */
+
+  /* banner start */
+  .banner {
+    padding: 30px 0;
+  }
+  .right {
+    display: none;
+  }
+  .banner_left_img {
+    display: none;
+  }
+  .left_banner h3 {
+    font-size: 20px;
+  }
+  .left_banner h1 {
+    line-height: 32px;
+    font-size: 30px;
+  }
+  .left_banner p {
+    font-size: 15px;
+    line-height: 22px;
+    padding: 15px 5px 15px 0;
+  }
+  .left_banner button {
+    margin-top: 10px;
+  }
+  .right_banner {
+    margin-top: 25px;
+  }
+  /* banner start */
+
+  /* why_section start */
+  .why_section {
+    padding: 30px 0 25px;
+  }
+  .why_choose_title p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    /* padding: 0 10%; */
+  }
+  .service_row {
+    margin-top: 20px;
+  }
+  .our_short_service {
+    margin-bottom: 15px;
+  }
+  .our_short_service_img img {
+    width: 30%;
+  }
+  .our_short_service_details {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .phone_app_img {
+    margin-bottom: 30px;
+  }
+
+  .phone_app_img img {
+    width: 45%;
+  }
+  /********  why_section start  *********/
+
+  /******** download app section start ********/
+
+  .download_app {
+    padding: 35px 0;
+  }
+
+  .s_img img {
+    top: -5em;
+  }
+
+  .download_app_img_wrapper {
+    padding: 20px;
+    padding-bottom: 0;
+  }
+
+  .download_app_details {
+    text-align: center;
+  }
+
+  .download_app_details p {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+
+  .download_btn button {
+    padding: 8px 10px;
+    width: 300px;
+    margin-bottom: 15px;
+  }
+
+  .download_btn button .row {
+    align-items: center;
+  }
+
+  .download_btn button .download_btn_wrapper h2 {
+    font-size: 22px;
+  }
+
+  /***** happy client section start ******/
+  .happy_client_section {
+    padding: 40px 0px;
+  }
+
+  .happy_client_title_wrapper {
+    margin-bottom: 20px;
+  }
+
+  .happy_client_title_wrapper p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .happy_client_feedback .single_feedback_wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 12px;
+    margin-bottom: 20px;
+  }
+
+  .happy_client_feedback .single_feedback_wrapper h3 {
+    padding-bottom: 5px;
+  }
+
+  .single_feedback_wrapper p {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .client_info {
+    padding-top: 15px;
+  }
+
+  .client_info ul li img {
+    width: 70%;
+  }
+
+  .client_info ul li a {
+    font-size: 18px;
+  }
+  /***** happy client section end ******/
+
+  /******* sign up start **********/
+  .signup_section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .signup_left_img {
+    top: -3rem;
+  }
+
+  .signup_left_img img {
+    width: 30%;
+  }
+
+  .signup_form_wrapper {
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 20px;
+  }
+  .signup_form_wrapper h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .signup_form_wrapper p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  form {
+    margin-top: 22px;
+  }
+
+  form .username {
+    min-height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .menu_item_wrapper {
+    margin-top: 20px;
+    min-height: 340px;
+  }
+
+  .happy_client_avada {
+    padding: 15px 10px;
+    right: 1.5rem;
+  }
+
+  .happy_client_avada h2 {
+    font-size: 25px;
+    line-height: 28px;
+  }
+
+  .happy_client_avada small {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  .happy_client_avada .people_avada img {
+    width: 70%;
+  }
+
+  .chicken_avada {
+    padding: 5px 7px;
+    left: 30%;
+    bottom: 0rem;
+  }
+
+  .chicken_avada .nopath_img img {
+    width: 42%;
+  }
+
+  .chicken_avada .chicken_details h4 {
+    margin-bottom: 0px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .chicken_avada .chicken_details small {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  .chicken_avada .chicken_details .people_avada {
+    margin-bottom: 5px;
+  }
+
+  .chicken_avada .chicken_details .people_avada img {
+    width: 55%;
+  }
+
+  .chicken_avada .chicken_details ul li {
+    margin-right: 2px !important;
+  }
+  .chicken_avada .chicken_details ul li:last-child {
+    margin-right: 0px !important;
+  }
+
+  .chicken_avada .chicken_details ul li a {
+    font-size: 13px;
+  }
+
+  /******* contact us section start ******/
+  .contact_us {
+    padding-top: 40px;
+    padding-bottom: 35px;
+  }
+
+  .contact_us .row.shadow {
+    box-shadow: 0 0rem 0rem rgba(0, 0, 0, 0) !important;
+  }
+
+  .contact_details {
+    margin: 0 0 30px;
+    padding-right: 0px;
+  }
+
+  .contact_details h1 {
+    line-height: 32px;
+    margin-bottom: 0px;
+  }
+
+  .contact_details p {
+    font-size: 15px;
+    line-height: 23px;
+    margin: 15px 0px;
+  }
+
+  /***** footer start *****/
+
+  footer {
+    padding: 35px 0 20px;
+    text-align: center;
+  }
+
+  .footer_left_img,
+  .right_plate_img {
+    display: none;
+  }
+
+  .accordion-button {
+    padding: 10px 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #d76957;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+  }
+
+  .accordion-button::after {
+    color: #d76957 !important;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    color: #000 !important;
+  }
+
+  .footer_col_1,
+  .footer_col_2 {
+    padding-bottom: 10px;
+  }
+
+  .footer_col_2 h3,
+  .footer_col_3 h3 {
+    font-size: 18px;
+  }
+
+  .footer_col_1 p,
+  .footer_col_3 p {
+    margin: 15px 0;
+    line-height: 23px;
+    padding: 0 20px;
+  }
+
+  .footer_col_2 ul {
+    margin-top: 15px;
+  }
+
+  .footer_col_2 ul li {
+    margin-bottom: 8px;
+  }
+
+  .footer_col_2 ul li a {
+    font-size: 16px;
+  }
+
+  .footer_col_3 ul {
+    margin-bottom: 8px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  /* common css */
 
+  .gradient_btn {
+    width: 165px;
+    height: 55px;
+  }
+  .navbar-brand img {
+    width: 80%;
+  }
+  nav ul li {
+    margin: 0 10px;
+  }
+
+  /* banner section */
+  .right {
+    right: -20.5rem;
+  }
+  .right img {
+    width: 50%;
+  }
+
+  .banner_left_img {
+    left: -4rem;
+  }
+  .banner_left_img img {
+    width: 40%;
+  }
+
+  .our_short_service_img img {
+    width: 100%;
+  }
+
+  .our_short_service_details h4 {
+    font-size: 16px;
+  }
+
+  .s_img img {
+    width: 17%;
+    top: -4.5em;
+  }
+
+  .happy_client_feedback .single_feedback_wrapper {
+    padding: 10px;
+  }
+
+  .client_info {
+    padding-top: 15px;
+  }
+
+  .client_info ul li img {
+    width: 80%;
+  }
+
+  .download_app {
+    padding: 30px 0 50px;
+  }
+
+  .download_btn button {
+    padding: 8px 10px;
+  }
+
+  .download_btn button .download_btn_wrapper h2 {
+    font-size: 22px;
+  }
+
+  .happy_client_feedback .single_feedback_wrapper h3 {
+    font-size: 23px;
+    padding-bottom: 12px;
+  }
+
+  .contact_us {
+    padding-top: 50px;
+  }
+
+  .right_plate_img {
+    position: absolute;
+    right: -27rem;
+    bottom: -1rem;
+  }
+  .right_plate_img img {
+    width: 28%;
+  }
+
+  .footer_col_2 ul li {
+    margin-bottom: 20px;
+  }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
+/* Larger devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-
 }
 
-/* Extra extra large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-
+/* Largest devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1599.98px) {
 }
 
+/* Extra large devices (largest desktops, 1600px and up) */
+@media (min-width: 1600px) and (max-width: 1799.98px) {
+}
+
+/* Extra larger devices (Extra large desktops, 1800px and up) */
+@media (min-width: 1800px) {
+}
