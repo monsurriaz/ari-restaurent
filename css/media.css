@@ -77,6 +77,13 @@
   .phone_app_img {
     margin-bottom: 30px;
   }
+
+  .s_img img{
+    width: 20%;
+    position: absolute;
+    top: -1.5em;
+    right: 0;
+  }
   /********  why_section start  *********/
 
   /******** download app section start ********/
